@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "b0e36554eee7dd4a26bb",
-  "time": 19937,
+  "hash": "2f0ee75c9bdc48acb504",
+  "time": 21275,
   "publicPath": "https://wjdwndud0114.github.io/",
   "assetsByChunkName": {
     "src/containers/Work.jsx": [
@@ -19,8 +19,8 @@
       "templates/src/containers/Contact.jsx.a025b389.js.map"
     ],
     "src/containers/About.jsx": [
-      "templates/src/containers/About.jsx.689a6454.js",
-      "templates/src/containers/About.jsx.689a6454.js.map"
+      "templates/src/containers/About.jsx.146cd501.js",
+      "templates/src/containers/About.jsx.146cd501.js.map"
     ],
     "src/containers/404.jsx": [
       "templates/src/containers/404.jsx.8d22808c.js",
@@ -31,8 +31,8 @@
       "main.575b5130.js.map"
     ],
     "bootstrap": [
-      "bootstrap.fb578dc3.js",
-      "bootstrap.fb578dc3.js.map"
+      "bootstrap.4bf60266.js",
+      "bootstrap.4bf60266.js.map"
     ]
   },
   "assets": [
@@ -70,8 +70,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/About.jsx.689a6454.js",
-      "size": 4361,
+      "name": "templates/src/containers/About.jsx.146cd501.js",
+      "size": 4309,
       "chunks": [
         3
       ],
@@ -104,7 +104,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.fb578dc3.js",
+      "name": "bootstrap.4bf60266.js",
       "size": 1670,
       "chunks": [
         6
@@ -148,8 +148,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/About.jsx.689a6454.js.map",
-      "size": 15449,
+      "name": "templates/src/containers/About.jsx.146cd501.js.map",
+      "size": 15319,
       "chunks": [
         3
       ],
@@ -181,7 +181,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.fb578dc3.js.map",
+      "name": "bootstrap.4bf60266.js.map",
       "size": 14793,
       "chunks": [
         6
@@ -200,8 +200,8 @@
         5
       ],
       "assets": [
-        "bootstrap.fb578dc3.js",
-        "bootstrap.fb578dc3.js.map",
+        "bootstrap.4bf60266.js",
+        "bootstrap.4bf60266.js.map",
         "main.575b5130.js",
         "main.575b5130.js.map"
       ],
@@ -455,15 +455,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 6970,
+      "size": 6918,
       "names": [
         "src/containers/About.jsx"
       ],
       "files": [
-        "templates/src/containers/About.jsx.689a6454.js",
-        "templates/src/containers/About.jsx.689a6454.js.map"
+        "templates/src/containers/About.jsx.146cd501.js",
+        "templates/src/containers/About.jsx.146cd501.js.map"
       ],
-      "hash": "689a645433c923d87326",
+      "hash": "146cd50146ca361ac70a",
       "parents": [
         5
       ],
@@ -474,7 +474,7 @@
           "name": "./src/containers/About.jsx",
           "index": 146,
           "index2": 142,
-          "size": 6970,
+          "size": 6918,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -513,7 +513,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 4,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _TweenMax = require('gsap/umd/TweenMax');\n\nvar _TweenMax2 = _interopRequireDefault(_TweenMax);\n\nvar _TransitContext = require('../context/TransitContext.jsx');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar StyledAbout = _styledComponents2.default.div.withConfig({\n  displayName: 'About__StyledAbout',\n  componentId: 'sc-1qgr3zb-0'\n})(['flex:1 1 auto;background:#CAF27B;display:flex;justify-content:center;align-items:center;flex-direction:column;padding:1rem;h1,p,button{color:#1f2d3d;text-align:center;}p{text-align:center;}h1{font-size:3rem;}p{font-size:2rem;}button{font-size:2rem;background:transparent;border:1px solid #1f2d3d;padding:1rem;margin-top:3rem;}button:hover{cursor:pointer;transform:scale(1.1);}.container{display:flex;flex-direction:row;justify-content:center;align-items:center;}a{width:4rem;height:4rem;margin-left:1.6rem;}a,button{display:inline-block;vertical-align:middle;transform:translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;transition-duration:0.3s;transition-property:transform;transition-timing-function:ease-out;}a:hover,button:hover{cursor:pointer;transform:scale(1.1);}']);\n\nvar About = function (_Component) {\n  _inherits(About, _Component);\n\n  function About(props) {\n    _classCallCheck(this, About);\n\n    var _this = _possibleConstructorReturn(this, (About.__proto__ || Object.getPrototypeOf(About)).call(this, props));\n\n    _this.transitFunc = null;\n    _this.h = _react2.default.createRef();\n    _this.t = _react2.default.createRef();\n    _this.g = _react2.default.createRef();\n    _this.home = _react2.default.createRef();\n    return _this;\n  }\n\n  _createClass(About, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      var _this2 = this;\n\n      var tl = new TimelineMax();\n      tl.from(this.h.current, 1.5, {\n        opacity: 0,\n        y: -40,\n        ease: Back.easeOut\n      }).from(this.t.current, 1.5, {\n        opacity: 0,\n        y: 40,\n        ease: Back.easeIn\n      }, \"-=1\").from(this.g.current, 1.5, {\n        opacity: 0,\n        x: 40,\n        ease: Back.easeIn\n      }, \"-=1\").from(this.home.current, 2, {\n        opacity: 0,\n        y: 40,\n        ease: Back.easeOut\n      }, \"+=0.5\").add(function () {\n        _this2.home.current.style.transform = \"\";\n      });\n    }\n  }, {\n    key: 'handleHomeClick',\n    value: function handleHomeClick(history) {\n      this.transitFunc(\"/about\", \"/\", function () {\n        history.push('/');\n      });\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var _this3 = this;\n\n      return _react2.default.createElement(\n        StyledAbout,\n        null,\n        _react2.default.createElement(\n          _TransitContext.TransitContext.Consumer,\n          null,\n          function (c) {\n            _this3.transitFunc = c.transitFunc;\n          }\n        ),\n        _react2.default.createElement(\n          'h1',\n          { ref: this.h },\n          'I\\'m a full stack developer.'\n        ),\n        _react2.default.createElement(\n          'div',\n          { className: 'container' },\n          _react2.default.createElement(\n            'p',\n            { ref: this.t },\n            'Reach me: jyj022@ucsd.edu'\n          ),\n          _react2.default.createElement(\n            'a',\n            { href: 'https://github.com/wjdwndud0114/' },\n            _react2.default.createElement(\n              'svg',\n              { ref: this.g, viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' },\n              _react2.default.createElement(\n                'title',\n                null,\n                'wjdwndud0114'\n              ),\n              _react2.default.createElement('path', { d: 'M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12' })\n            )\n          )\n        ),\n        _react2.default.createElement(\n          _reactStatic.Prefetch,\n          { path: '/' },\n          _react2.default.createElement(_reactStatic.Route, { render: function render(_ref) {\n              var history = _ref.history;\n              return _react2.default.createElement(\n                'button',\n                {\n                  ref: _this3.home,\n                  type: 'button',\n                  onClick: function onClick() {\n                    _this3.handleHomeClick(history);\n                  } },\n                'Home'\n              );\n            } })\n        )\n      );\n    }\n  }]);\n\n  return About;\n}(_react.Component);\n\nexports.default = About;"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _TweenMax = require('gsap/umd/TweenMax');\n\nvar _TweenMax2 = _interopRequireDefault(_TweenMax);\n\nvar _TransitContext = require('../context/TransitContext.jsx');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar StyledAbout = _styledComponents2.default.div.withConfig({\n  displayName: 'About__StyledAbout',\n  componentId: 'sc-1qgr3zb-0'\n})(['flex:1 1 auto;background:#CAF27B;display:flex;justify-content:center;align-items:center;flex-direction:column;padding:1rem;h1,p,button{color:#1f2d3d;text-align:center;}p{text-align:center;}h1{font-size:3rem;}p{font-size:2rem;}button{font-size:2rem;background:transparent;border:1px solid #1f2d3d;padding:1rem;margin-top:3rem;}.container{display:flex;flex-direction:row;justify-content:center;align-items:center;}a{width:4rem;height:4rem;margin-left:1rem;}a,button{display:inline-block;vertical-align:middle;transform:translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;transition-duration:0.3s;transition-property:transform;transition-timing-function:ease-out;}a:hover,button:hover{cursor:pointer;transform:scale(1.1);}']);\n\nvar About = function (_Component) {\n  _inherits(About, _Component);\n\n  function About(props) {\n    _classCallCheck(this, About);\n\n    var _this = _possibleConstructorReturn(this, (About.__proto__ || Object.getPrototypeOf(About)).call(this, props));\n\n    _this.transitFunc = null;\n    _this.h = _react2.default.createRef();\n    _this.t = _react2.default.createRef();\n    _this.g = _react2.default.createRef();\n    _this.home = _react2.default.createRef();\n    return _this;\n  }\n\n  _createClass(About, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      var _this2 = this;\n\n      var tl = new TimelineMax();\n      tl.from(this.h.current, 1.5, {\n        opacity: 0,\n        y: -40,\n        ease: Back.easeOut\n      }).from(this.t.current, 1.5, {\n        opacity: 0,\n        y: 40,\n        ease: Back.easeIn\n      }, \"-=1\").from(this.g.current, 1.5, {\n        opacity: 0,\n        x: 40,\n        ease: Back.easeIn\n      }, \"-=1\").from(this.home.current, 2, {\n        opacity: 0,\n        y: 40,\n        ease: Back.easeOut\n      }, \"+=0.5\").add(function () {\n        _this2.home.current.style.transform = \"\";\n      });\n    }\n  }, {\n    key: 'handleHomeClick',\n    value: function handleHomeClick(history) {\n      this.transitFunc(\"/about\", \"/\", function () {\n        history.push('/');\n      });\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var _this3 = this;\n\n      return _react2.default.createElement(\n        StyledAbout,\n        null,\n        _react2.default.createElement(\n          _TransitContext.TransitContext.Consumer,\n          null,\n          function (c) {\n            _this3.transitFunc = c.transitFunc;\n          }\n        ),\n        _react2.default.createElement(\n          'h1',\n          { ref: this.h },\n          'I\\'m a full stack developer.'\n        ),\n        _react2.default.createElement(\n          'div',\n          { className: 'container' },\n          _react2.default.createElement(\n            'p',\n            { ref: this.t },\n            'Reach me: jyj022@ucsd.edu'\n          ),\n          _react2.default.createElement(\n            'a',\n            { href: 'https://github.com/wjdwndud0114/' },\n            _react2.default.createElement(\n              'svg',\n              { ref: this.g, viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' },\n              _react2.default.createElement(\n                'title',\n                null,\n                'wjdwndud0114'\n              ),\n              _react2.default.createElement('path', { d: 'M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12' })\n            )\n          )\n        ),\n        _react2.default.createElement(\n          _reactStatic.Prefetch,\n          { path: '/' },\n          _react2.default.createElement(_reactStatic.Route, { render: function render(_ref) {\n              var history = _ref.history;\n              return _react2.default.createElement(\n                'button',\n                {\n                  ref: _this3.home,\n                  type: 'button',\n                  onClick: function onClick() {\n                    _this3.handleHomeClick(history);\n                  } },\n                'Home'\n              );\n            } })\n        )\n      );\n    }\n  }]);\n\n  return About;\n}(_react.Component);\n\nexports.default = About;"
         }
       ],
       "filteredModules": 0,
@@ -1450,9 +1450,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
-          "issuerId": 122,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createHashHistory.js",
+          "issuerId": 124,
+          "issuerName": "./node_modules/history/createHashHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1578,9 +1578,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/react-router-dom/es/BrowserRouter.js",
-          "issuerId": 65,
-          "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/react-router-dom/es/HashRouter.js",
+          "issuerId": 71,
+          "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1681,9 +1681,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
-          "issuerId": 122,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createMemoryHistory.js",
+          "issuerId": 123,
+          "issuerName": "./node_modules/history/createMemoryHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2174,9 +2174,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/react-router-dom/es/BrowserRouter.js",
-          "issuerId": 65,
-          "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/react-router-dom/es/HashRouter.js",
+          "issuerId": 71,
+          "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2750,9 +2750,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
-          "issuerId": 122,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createMemoryHistory.js",
+          "issuerId": 123,
+          "issuerName": "./node_modules/history/createMemoryHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2871,9 +2871,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/es/createBrowserHistory.js",
-          "issuerId": 68,
-          "issuerName": "./node_modules/history/es/createBrowserHistory.js",
+          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/es/createMemoryHistory.js",
+          "issuerId": 70,
+          "issuerName": "./node_modules/history/es/createMemoryHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3223,9 +3223,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
-          "issuerId": 122,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createMemoryHistory.js",
+          "issuerId": 123,
+          "issuerName": "./node_modules/history/createMemoryHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3279,9 +3279,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
-          "issuerId": 122,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createMemoryHistory.js",
+          "issuerId": 123,
+          "issuerName": "./node_modules/history/createMemoryHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4351,9 +4351,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
-          "issuerId": 122,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createHashHistory.js",
+          "issuerId": 124,
+          "issuerName": "./node_modules/history/createHashHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -8316,10 +8316,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.fb578dc3.js",
-        "bootstrap.fb578dc3.js.map"
+        "bootstrap.4bf60266.js",
+        "bootstrap.4bf60266.js.map"
       ],
-      "hash": "fb578dc31d3d21f2b6e8",
+      "hash": "4bf6026663a493d86f7b",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -9149,9 +9149,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
-      "issuerId": 122,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createHashHistory.js",
+      "issuerId": 124,
+      "issuerName": "./node_modules/history/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9277,9 +9277,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/react-router-dom/es/BrowserRouter.js",
-      "issuerId": 65,
-      "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/react-router-dom/es/HashRouter.js",
+      "issuerId": 71,
+      "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9380,9 +9380,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
-      "issuerId": 122,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createMemoryHistory.js",
+      "issuerId": 123,
+      "issuerName": "./node_modules/history/createMemoryHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9873,9 +9873,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/react-router-dom/es/BrowserRouter.js",
-      "issuerId": 65,
-      "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/react-router-dom/es/HashRouter.js",
+      "issuerId": 71,
+      "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10449,9 +10449,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
-      "issuerId": 122,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createMemoryHistory.js",
+      "issuerId": 123,
+      "issuerName": "./node_modules/history/createMemoryHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10570,9 +10570,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/es/createBrowserHistory.js",
-      "issuerId": 68,
-      "issuerName": "./node_modules/history/es/createBrowserHistory.js",
+      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/es/createMemoryHistory.js",
+      "issuerId": 70,
+      "issuerName": "./node_modules/history/es/createMemoryHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10922,9 +10922,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
-      "issuerId": 122,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createMemoryHistory.js",
+      "issuerId": 123,
+      "issuerName": "./node_modules/history/createMemoryHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10978,9 +10978,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
-      "issuerId": 122,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createMemoryHistory.js",
+      "issuerId": 123,
+      "issuerName": "./node_modules/history/createMemoryHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -12050,9 +12050,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
-      "issuerId": 122,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "/mnt/c/Users/Kevin/Desktop/repos/kj/node_modules/history/createHashHistory.js",
+      "issuerId": 124,
+      "issuerName": "./node_modules/history/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -12426,7 +12426,7 @@
       "name": "./src/containers/About.jsx",
       "index": 146,
       "index2": 142,
-      "size": 6970,
+      "size": 6918,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -12465,7 +12465,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 4,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _TweenMax = require('gsap/umd/TweenMax');\n\nvar _TweenMax2 = _interopRequireDefault(_TweenMax);\n\nvar _TransitContext = require('../context/TransitContext.jsx');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar StyledAbout = _styledComponents2.default.div.withConfig({\n  displayName: 'About__StyledAbout',\n  componentId: 'sc-1qgr3zb-0'\n})(['flex:1 1 auto;background:#CAF27B;display:flex;justify-content:center;align-items:center;flex-direction:column;padding:1rem;h1,p,button{color:#1f2d3d;text-align:center;}p{text-align:center;}h1{font-size:3rem;}p{font-size:2rem;}button{font-size:2rem;background:transparent;border:1px solid #1f2d3d;padding:1rem;margin-top:3rem;}button:hover{cursor:pointer;transform:scale(1.1);}.container{display:flex;flex-direction:row;justify-content:center;align-items:center;}a{width:4rem;height:4rem;margin-left:1.6rem;}a,button{display:inline-block;vertical-align:middle;transform:translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;transition-duration:0.3s;transition-property:transform;transition-timing-function:ease-out;}a:hover,button:hover{cursor:pointer;transform:scale(1.1);}']);\n\nvar About = function (_Component) {\n  _inherits(About, _Component);\n\n  function About(props) {\n    _classCallCheck(this, About);\n\n    var _this = _possibleConstructorReturn(this, (About.__proto__ || Object.getPrototypeOf(About)).call(this, props));\n\n    _this.transitFunc = null;\n    _this.h = _react2.default.createRef();\n    _this.t = _react2.default.createRef();\n    _this.g = _react2.default.createRef();\n    _this.home = _react2.default.createRef();\n    return _this;\n  }\n\n  _createClass(About, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      var _this2 = this;\n\n      var tl = new TimelineMax();\n      tl.from(this.h.current, 1.5, {\n        opacity: 0,\n        y: -40,\n        ease: Back.easeOut\n      }).from(this.t.current, 1.5, {\n        opacity: 0,\n        y: 40,\n        ease: Back.easeIn\n      }, \"-=1\").from(this.g.current, 1.5, {\n        opacity: 0,\n        x: 40,\n        ease: Back.easeIn\n      }, \"-=1\").from(this.home.current, 2, {\n        opacity: 0,\n        y: 40,\n        ease: Back.easeOut\n      }, \"+=0.5\").add(function () {\n        _this2.home.current.style.transform = \"\";\n      });\n    }\n  }, {\n    key: 'handleHomeClick',\n    value: function handleHomeClick(history) {\n      this.transitFunc(\"/about\", \"/\", function () {\n        history.push('/');\n      });\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var _this3 = this;\n\n      return _react2.default.createElement(\n        StyledAbout,\n        null,\n        _react2.default.createElement(\n          _TransitContext.TransitContext.Consumer,\n          null,\n          function (c) {\n            _this3.transitFunc = c.transitFunc;\n          }\n        ),\n        _react2.default.createElement(\n          'h1',\n          { ref: this.h },\n          'I\\'m a full stack developer.'\n        ),\n        _react2.default.createElement(\n          'div',\n          { className: 'container' },\n          _react2.default.createElement(\n            'p',\n            { ref: this.t },\n            'Reach me: jyj022@ucsd.edu'\n          ),\n          _react2.default.createElement(\n            'a',\n            { href: 'https://github.com/wjdwndud0114/' },\n            _react2.default.createElement(\n              'svg',\n              { ref: this.g, viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' },\n              _react2.default.createElement(\n                'title',\n                null,\n                'wjdwndud0114'\n              ),\n              _react2.default.createElement('path', { d: 'M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12' })\n            )\n          )\n        ),\n        _react2.default.createElement(\n          _reactStatic.Prefetch,\n          { path: '/' },\n          _react2.default.createElement(_reactStatic.Route, { render: function render(_ref) {\n              var history = _ref.history;\n              return _react2.default.createElement(\n                'button',\n                {\n                  ref: _this3.home,\n                  type: 'button',\n                  onClick: function onClick() {\n                    _this3.handleHomeClick(history);\n                  } },\n                'Home'\n              );\n            } })\n        )\n      );\n    }\n  }]);\n\n  return About;\n}(_react.Component);\n\nexports.default = About;"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _TweenMax = require('gsap/umd/TweenMax');\n\nvar _TweenMax2 = _interopRequireDefault(_TweenMax);\n\nvar _TransitContext = require('../context/TransitContext.jsx');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar StyledAbout = _styledComponents2.default.div.withConfig({\n  displayName: 'About__StyledAbout',\n  componentId: 'sc-1qgr3zb-0'\n})(['flex:1 1 auto;background:#CAF27B;display:flex;justify-content:center;align-items:center;flex-direction:column;padding:1rem;h1,p,button{color:#1f2d3d;text-align:center;}p{text-align:center;}h1{font-size:3rem;}p{font-size:2rem;}button{font-size:2rem;background:transparent;border:1px solid #1f2d3d;padding:1rem;margin-top:3rem;}.container{display:flex;flex-direction:row;justify-content:center;align-items:center;}a{width:4rem;height:4rem;margin-left:1rem;}a,button{display:inline-block;vertical-align:middle;transform:translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;transition-duration:0.3s;transition-property:transform;transition-timing-function:ease-out;}a:hover,button:hover{cursor:pointer;transform:scale(1.1);}']);\n\nvar About = function (_Component) {\n  _inherits(About, _Component);\n\n  function About(props) {\n    _classCallCheck(this, About);\n\n    var _this = _possibleConstructorReturn(this, (About.__proto__ || Object.getPrototypeOf(About)).call(this, props));\n\n    _this.transitFunc = null;\n    _this.h = _react2.default.createRef();\n    _this.t = _react2.default.createRef();\n    _this.g = _react2.default.createRef();\n    _this.home = _react2.default.createRef();\n    return _this;\n  }\n\n  _createClass(About, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {\n      var _this2 = this;\n\n      var tl = new TimelineMax();\n      tl.from(this.h.current, 1.5, {\n        opacity: 0,\n        y: -40,\n        ease: Back.easeOut\n      }).from(this.t.current, 1.5, {\n        opacity: 0,\n        y: 40,\n        ease: Back.easeIn\n      }, \"-=1\").from(this.g.current, 1.5, {\n        opacity: 0,\n        x: 40,\n        ease: Back.easeIn\n      }, \"-=1\").from(this.home.current, 2, {\n        opacity: 0,\n        y: 40,\n        ease: Back.easeOut\n      }, \"+=0.5\").add(function () {\n        _this2.home.current.style.transform = \"\";\n      });\n    }\n  }, {\n    key: 'handleHomeClick',\n    value: function handleHomeClick(history) {\n      this.transitFunc(\"/about\", \"/\", function () {\n        history.push('/');\n      });\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      var _this3 = this;\n\n      return _react2.default.createElement(\n        StyledAbout,\n        null,\n        _react2.default.createElement(\n          _TransitContext.TransitContext.Consumer,\n          null,\n          function (c) {\n            _this3.transitFunc = c.transitFunc;\n          }\n        ),\n        _react2.default.createElement(\n          'h1',\n          { ref: this.h },\n          'I\\'m a full stack developer.'\n        ),\n        _react2.default.createElement(\n          'div',\n          { className: 'container' },\n          _react2.default.createElement(\n            'p',\n            { ref: this.t },\n            'Reach me: jyj022@ucsd.edu'\n          ),\n          _react2.default.createElement(\n            'a',\n            { href: 'https://github.com/wjdwndud0114/' },\n            _react2.default.createElement(\n              'svg',\n              { ref: this.g, viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' },\n              _react2.default.createElement(\n                'title',\n                null,\n                'wjdwndud0114'\n              ),\n              _react2.default.createElement('path', { d: 'M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12' })\n            )\n          )\n        ),\n        _react2.default.createElement(\n          _reactStatic.Prefetch,\n          { path: '/' },\n          _react2.default.createElement(_reactStatic.Route, { render: function render(_ref) {\n              var history = _ref.history;\n              return _react2.default.createElement(\n                'button',\n                {\n                  ref: _this3.home,\n                  type: 'button',\n                  onClick: function onClick() {\n                    _this3.handleHomeClick(history);\n                  } },\n                'Home'\n              );\n            } })\n        )\n      );\n    }\n  }]);\n\n  return About;\n}(_react.Component);\n\nexports.default = About;"
     },
     {
       "id": 56,

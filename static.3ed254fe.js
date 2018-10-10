@@ -476,7 +476,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var StyledAbout = _styledComponents2.default.div.withConfig({
   displayName: 'About__StyledAbout',
   componentId: 'sc-1qgr3zb-0'
-})(['flex:1 1 auto;background:#CAF27B;display:flex;justify-content:center;align-items:center;flex-direction:column;padding:1rem;h1,p,button{color:#1f2d3d;text-align:center;}p{text-align:center;}h1{font-size:3rem;}p{font-size:2rem;}button{font-size:2rem;background:transparent;border:1px solid #1f2d3d;padding:1rem;margin-top:3rem;}button:hover{cursor:pointer;transform:scale(1.1);}.container{display:flex;flex-direction:row;justify-content:center;align-items:center;}a{width:4rem;height:4rem;margin-left:1.6rem;}a,button{display:inline-block;vertical-align:middle;transform:translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;transition-duration:0.3s;transition-property:transform;transition-timing-function:ease-out;}a:hover,button:hover{cursor:pointer;transform:scale(1.1);}']);
+})(['flex:1 1 auto;background:#CAF27B;display:flex;justify-content:center;align-items:center;flex-direction:column;padding:1rem;h1,p,button{color:#1f2d3d;text-align:center;}p{text-align:center;}h1{font-size:3rem;}p{font-size:2rem;}button{font-size:2rem;background:transparent;border:1px solid #1f2d3d;padding:1rem;margin-top:3rem;}.container{display:flex;flex-direction:row;justify-content:center;align-items:center;}a{width:4rem;height:4rem;margin-left:1rem;}a,button{display:inline-block;vertical-align:middle;transform:translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;transition-duration:0.3s;transition-property:transform;transition-timing-function:ease-out;}a:hover,button:hover{cursor:pointer;transform:scale(1.1);}']);
 
 var About = function (_Component) {
   _inherits(About, _Component);
@@ -2027,4 +2027,4 @@ module.exports = {"v":"5.3.3","fr":60,"ip":0,"op":180,"w":1920,"h":1080,"nm":"Co
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.5b34ad3d.js.map
+//# sourceMappingURL=static.3ed254fe.js.map
