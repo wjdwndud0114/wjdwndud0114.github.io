@@ -2,9 +2,9 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "c51f8684911cb1737cd2",
-  "time": 6954,
-  "publicPath": "https://wjdwndud0114.github.io/",
+  "hash": "df0a5fcc82a2aa046601",
+  "time": 7461,
+  "publicPath": "https://kevinj.dev/",
   "assetsByChunkName": {
     "src/containers/Work.jsx": [
       "templates/src/containers/Work.jsx.05bb5991.js",
@@ -27,18 +27,18 @@
       "templates/src/containers/404.jsx.8d22808c.js.map"
     ],
     "main": [
-      "main.d336ae1e.js",
-      "main.d336ae1e.js.map"
+      "main.c27c2dc1.js",
+      "main.c27c2dc1.js.map"
     ],
     "bootstrap": [
-      "bootstrap.09c424de.js",
-      "bootstrap.09c424de.js.map"
+      "bootstrap.3e0d158b.js",
+      "bootstrap.3e0d158b.js.map"
     ]
   },
   "assets": [
     {
-      "name": "templates/src/containers/Work.jsx.05bb5991.js.map",
-      "size": 1558,
+      "name": "templates/src/containers/Work.jsx.05bb5991.js",
+      "size": 345,
       "chunks": [
         0
       ],
@@ -48,13 +48,13 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Work.jsx.05bb5991.js",
-      "size": 345,
+      "name": "templates/src/containers/Home.jsx.fd6b481d.js",
+      "size": 3038,
       "chunks": [
-        0
+        1
       ],
       "chunkNames": [
-        "src/containers/Work.jsx"
+        "src/containers/Home.jsx"
       ],
       "emitted": true
     },
@@ -92,8 +92,8 @@
       "emitted": true
     },
     {
-      "name": "main.d336ae1e.js",
-      "size": 712989,
+      "name": "main.c27c2dc1.js",
+      "size": 712929,
       "chunks": [
         5
       ],
@@ -104,8 +104,8 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.09c424de.js",
-      "size": 1670,
+      "name": "bootstrap.3e0d158b.js",
+      "size": 1658,
       "chunks": [
         6
       ],
@@ -115,13 +115,13 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Home.jsx.fd6b481d.js",
-      "size": 3038,
+      "name": "templates/src/containers/Work.jsx.05bb5991.js.map",
+      "size": 1558,
       "chunks": [
-        1
+        0
       ],
       "chunkNames": [
-        "src/containers/Home.jsx"
+        "src/containers/Work.jsx"
       ],
       "emitted": true
     },
@@ -170,8 +170,8 @@
       "emitted": true
     },
     {
-      "name": "main.d336ae1e.js.map",
-      "size": 4310765,
+      "name": "main.c27c2dc1.js.map",
+      "size": 4310704,
       "chunks": [
         5
       ],
@@ -181,8 +181,8 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.09c424de.js.map",
-      "size": 14793,
+      "name": "bootstrap.3e0d158b.js.map",
+      "size": 14769,
       "chunks": [
         6
       ],
@@ -200,10 +200,10 @@
         5
       ],
       "assets": [
-        "bootstrap.09c424de.js",
-        "bootstrap.09c424de.js.map",
-        "main.d336ae1e.js",
-        "main.d336ae1e.js.map"
+        "bootstrap.3e0d158b.js",
+        "bootstrap.3e0d158b.js.map",
+        "main.c27c2dc1.js",
+        "main.c27c2dc1.js.map"
       ],
       "isOverSizeLimit": true
     }
@@ -620,10 +620,10 @@
         "main"
       ],
       "files": [
-        "main.d336ae1e.js",
-        "main.d336ae1e.js.map"
+        "main.c27c2dc1.js",
+        "main.c27c2dc1.js.map"
       ],
-      "hash": "d336ae1e4f2aee8a13fc",
+      "hash": "c27c2dc1211b7bdc06e2",
       "parents": [
         6
       ],
@@ -1086,9 +1086,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/react-static/lib/client/components/SiteData.js",
-          "issuerId": 117,
-          "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
+          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "issuerId": 14,
+          "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1450,9 +1450,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createHashHistory.js",
-          "issuerId": 124,
-          "issuerName": "./node_modules/history/createHashHistory.js",
+          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
+          "issuerId": 122,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1681,9 +1681,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createMemoryHistory.js",
-          "issuerId": 123,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
+          "issuerId": 122,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1990,9 +1990,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/react-static/lib/client/components/Router.js",
-          "issuerId": 121,
-          "issuerName": "./node_modules/react-static/lib/client/components/Router.js",
+          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/react-static/lib/client/components/RouteData.js",
+          "issuerId": 95,
+          "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2174,9 +2174,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/react-router-dom/es/Link.js",
-          "issuerId": 32,
-          "issuerName": "./node_modules/react-router-dom/es/Link.js",
+          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/react-router-dom/es/HashRouter.js",
+          "issuerId": 71,
+          "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2445,9 +2445,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/react-static/lib/client/methods.js",
-          "issuerId": 11,
-          "issuerName": "./node_modules/react-static/lib/client/methods.js",
+          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "issuerId": 14,
+          "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2750,9 +2750,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createMemoryHistory.js",
-          "issuerId": 123,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
+          "issuerId": 122,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2871,9 +2871,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/es/createMemoryHistory.js",
-          "issuerId": 70,
-          "issuerName": "./node_modules/history/es/createMemoryHistory.js",
+          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/es/createBrowserHistory.js",
+          "issuerId": 68,
+          "issuerName": "./node_modules/history/es/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3223,9 +3223,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createMemoryHistory.js",
-          "issuerId": 123,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
+          "issuerId": 122,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3279,9 +3279,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createMemoryHistory.js",
-          "issuerId": 123,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
+          "issuerId": 122,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3400,9 +3400,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/c/Users/kevin/Desktop/repos/kj/src/components/Transit.jsx",
-          "issuerId": 149,
-          "issuerName": "./src/components/Transit.jsx",
+          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/c/Users/kevin/Desktop/repos/kj/src/components/Intro.jsx",
+          "issuerId": 141,
+          "issuerName": "./src/components/Intro.jsx",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3781,9 +3781,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/react-router/es/generatePath.js",
-          "issuerId": 36,
-          "issuerName": "./node_modules/react-router/es/generatePath.js",
+          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/react-router/es/matchPath.js",
+          "issuerId": 22,
+          "issuerName": "./node_modules/react-router/es/matchPath.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4351,9 +4351,9 @@
             5
           ],
           "assets": [],
-          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createHashHistory.js",
-          "issuerId": 124,
-          "issuerName": "./node_modules/history/createHashHistory.js",
+          "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
+          "issuerId": 122,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -8316,10 +8316,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.09c424de.js",
-        "bootstrap.09c424de.js.map"
+        "bootstrap.3e0d158b.js",
+        "bootstrap.3e0d158b.js.map"
       ],
-      "hash": "09c424de04f3c791bc42",
+      "hash": "3e0d158beeda6aa06cb3",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -8785,9 +8785,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/react-static/lib/client/components/SiteData.js",
-      "issuerId": 117,
-      "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
+      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/styled-components/dist/styled-components.browser.esm.js",
+      "issuerId": 14,
+      "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9149,9 +9149,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createHashHistory.js",
-      "issuerId": 124,
-      "issuerName": "./node_modules/history/createHashHistory.js",
+      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
+      "issuerId": 122,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9380,9 +9380,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createMemoryHistory.js",
-      "issuerId": 123,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
+      "issuerId": 122,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9689,9 +9689,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/react-static/lib/client/components/Router.js",
-      "issuerId": 121,
-      "issuerName": "./node_modules/react-static/lib/client/components/Router.js",
+      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/react-static/lib/client/components/RouteData.js",
+      "issuerId": 95,
+      "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9873,9 +9873,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/react-router-dom/es/Link.js",
-      "issuerId": 32,
-      "issuerName": "./node_modules/react-router-dom/es/Link.js",
+      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/react-router-dom/es/HashRouter.js",
+      "issuerId": 71,
+      "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10144,9 +10144,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/react-static/lib/client/methods.js",
-      "issuerId": 11,
-      "issuerName": "./node_modules/react-static/lib/client/methods.js",
+      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/styled-components/dist/styled-components.browser.esm.js",
+      "issuerId": 14,
+      "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10449,9 +10449,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createMemoryHistory.js",
-      "issuerId": 123,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
+      "issuerId": 122,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10570,9 +10570,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/es/createMemoryHistory.js",
-      "issuerId": 70,
-      "issuerName": "./node_modules/history/es/createMemoryHistory.js",
+      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/es/createBrowserHistory.js",
+      "issuerId": 68,
+      "issuerName": "./node_modules/history/es/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10922,9 +10922,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createMemoryHistory.js",
-      "issuerId": 123,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
+      "issuerId": 122,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10978,9 +10978,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createMemoryHistory.js",
-      "issuerId": 123,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
+      "issuerId": 122,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -11099,9 +11099,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/c/Users/kevin/Desktop/repos/kj/src/components/Transit.jsx",
-      "issuerId": 149,
-      "issuerName": "./src/components/Transit.jsx",
+      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/mnt/c/Users/kevin/Desktop/repos/kj/src/components/Intro.jsx",
+      "issuerId": 141,
+      "issuerName": "./src/components/Intro.jsx",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -11480,9 +11480,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/react-router/es/generatePath.js",
-      "issuerId": 36,
-      "issuerName": "./node_modules/react-router/es/generatePath.js",
+      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/react-router/es/matchPath.js",
+      "issuerId": 22,
+      "issuerName": "./node_modules/react-router/es/matchPath.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -12050,9 +12050,9 @@
         5
       ],
       "assets": [],
-      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createHashHistory.js",
-      "issuerId": 124,
-      "issuerName": "./node_modules/history/createHashHistory.js",
+      "issuer": "/mnt/c/Users/kevin/Desktop/repos/kj/node_modules/history/createBrowserHistory.js",
+      "issuerId": 122,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
